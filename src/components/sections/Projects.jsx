@@ -116,7 +116,7 @@ const Projects = () => {
               </p>
 
               <div>
-                {["HTML", "CSS", "GSAP", "Locomotive Scroll"].map(
+                {["HTML", "CSS", "GSAP", "LocomotiveJS"].map(
                   (item, index) => (
                     <span
                       key={index}
