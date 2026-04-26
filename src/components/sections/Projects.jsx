@@ -10,24 +10,26 @@ const Projects = () => {
       <RevealOnScroll>
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 bg-linear-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
-            Featured Projects
+            Featured Project
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 gap-6">
+            {/* ProShop Card */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)]">
+              
               <h3 className="text-xl font-bold mb-2 text-white">
-                E Commerce Store
+                ProShop (MERN E-commerce)
               </h3>
+
               <p className="text-gray-400 mb-4">
-                Full Stack E Commerce Store with authorization and
-                Authentication, Protected routes using custom middlewares
+                Full Stack E-commerce application built using MERN stack with user authentication, product management, and secure backend integration.
               </p>
 
               <div>
-                {["EJS", "Node.js", "Express", "MongoDB"].map((item, index) => (
+                {["React", "Node.js", "Express", "MongoDB"].map((item, index) => (
                   <span
                     key={index}
-                    className="bg-blue-500/10 text-blue-500 py-1 px-3 mr-2 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all"
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 mr-2 rounded-full text-sm hover:bg-blue-500/20 transition-all"
                   >
                     {item}
                   </span>
@@ -36,107 +38,15 @@ const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="https://e-commerce-1-eqoe.onrender.com/"
+                  href="https://proshop-production-0df9.up.railway.app/"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project ➡
                 </a>
               </div>
-            </div>
 
-            {/* 2nd card */}
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)]">
-              <h3 className="text-xl font-bold mb-2 text-white">
-                YouTube Clone
-              </h3>
-              <p className="text-gray-400 mb-4">
-                Fully Responsive Frontend Youtube Clone using ReactJS and
-                youtube API
-              </p>
-
-              <div>
-                {["ReactJS", "CSS", "YouTube API"].map((item, index) => (
-                  <span
-                    key={index}
-                    className="bg-blue-500/10 text-blue-500 py-1 px-3 mr-2 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all"
-                  >
-                    {item}
-                  </span>
-                ))}
-              </div>
-
-              <div className="flex justify-between items-center">
-                <a
-                  href="https://you-tube-react-nine.vercel.app/"
-                  target="_blank"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
-                >
-                  View Project ➡
-                </a>
-              </div>
-            </div>
-
-            {/* 3rd card */}
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)]">
-              <h3 className="text-xl font-bold mb-2 text-white">
-                Simple Chatbot
-              </h3>
-              <p className="text-gray-400 mb-4">Simple Chatbot using ReactJS</p>
-
-              <div>
-                {["ReactJS", "CSS"].map((item, index) => (
-                  <span
-                    key={index}
-                    className="bg-blue-500/10 text-blue-500 py-1 px-3 mr-2 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all"
-                  >
-                    {item}
-                  </span>
-                ))}
-              </div>
-
-              <div className="flex justify-between items-center">
-                <a
-                  href="https://chatbot-theta-rose.vercel.app/"
-                  target="_blank"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
-                >
-                  View Project ➡
-                </a>
-              </div>
-            </div>
-
-            {/* 4th card */}
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)]">
-              <h3 className="text-xl font-bold mb-2 text-white">
-                Animated Desktop Website
-              </h3>
-              <p className="text-gray-400 mb-4">
-                Fully animated website using GSAP and CSS
-              </p>
-
-              <div>
-                {["HTML", "CSS", "GSAP", "LocomotiveJS"].map(
-                  (item, index) => (
-                    <span
-                      key={index}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 mr-2 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all"
-                    >
-                      {item}
-                    </span>
-                  )
-                )}
-              </div>
-
-              <div className="flex justify-between items-center">
-                <a
-                  href="https://animation-website-pied.vercel.app/"
-                  target="_blank"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
-                >
-                  View Project ➡
-                </a>
-              </div>
             </div>
           </div>
         </div>
